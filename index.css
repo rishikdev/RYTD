@@ -1,0 +1,77 @@
+body
+{
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #e0e0e0;
+}
+
+.carousel
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.iPhone
+{
+    max-width: 20rem;
+}
+
+.iPad
+{
+    max-width: 45rem;
+}
+
+.Watch
+{
+    max-width: 20rem;
+}
+
+.screenshot
+{
+    transition: transform .2s; /* Animation */
+    margin: 5%;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.screenshot:hover
+{
+    transform: scale(1.25); /* (125% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.card
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.form-outer
+{
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
+.form-control
+{
+    border-color: black;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.btn:focus
+{
+    background-color: #bebebe;
+}
