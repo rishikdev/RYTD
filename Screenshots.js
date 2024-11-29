@@ -18,7 +18,10 @@ function populate_images() {
   for (i = 0; i < data_light.length; i = i + 1) {
     set_css_style();
 
-    if (!is_mobile_device() && data_light[i].device == "MacBook") {
+    if (
+      (!is_mobile_device() && data_light[i].device == "MacBook") ||
+      data_light[i].device == "iPad"
+    ) {
       css_style = 'style="max-width : 70%"';
     }
 
@@ -42,7 +45,10 @@ function populate_images() {
     if (i < data_dark.length) {
       set_css_style();
 
-      if (!is_mobile_device() && data_dark[i].device == "MacBook") {
+      if (
+        (!is_mobile_device() && data_dark[i].device == "MacBook") ||
+        data_dark[i].device == "iPad"
+      ) {
         css_style = 'style="max-width : 70%"';
       }
 

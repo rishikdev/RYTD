@@ -135,10 +135,6 @@ function populate_application_description() {
     '<h5 class="card-title">' +
     application_description[2].card_title +
     "</h5>" +
-    '<p class="card-text">' +
-    application_description[2].card_text +
-    "</p>";
-  /*
     "<center>" +
     '<img src="' +
     download_links.qr_code +
@@ -153,6 +149,5 @@ function populate_application_description() {
     '"  alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">' +
     "</a>" +
     "</center>";
-*/
   "</div>" + "</div>";
 }

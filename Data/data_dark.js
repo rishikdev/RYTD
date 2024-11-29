@@ -14,6 +14,20 @@ export default [
   },
 
   {
+    device: "iPad",
+    id: "iPadCarouselIndicator",
+    class: "iPad",
+    carousel_elements: [
+      {
+        src: "https://github.com/rishikdev/Images/blob/main/RYTD/iPad%20Pro%2013/Dark/RYTD.png",
+        alt: "RYTD iPadOS Application",
+        header: "RYTD",
+        description: "RYTD iPadOS Application",
+      },
+    ],
+  },
+
+  {
     device: "MacBook",
     id: "MacBookCarouselIndicator",
     class: "MacBook",

@@ -13,6 +13,6 @@ export default [
 
   {
     card_title: "Where to find",
-    card_text: "Coming soon to the App Store.",
+    card_text: "list links",
   },
 ];
